@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import * as dotenv from "dotenv";
+import "./index.css";
+import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <App />
-);
+dotenv.config();
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
